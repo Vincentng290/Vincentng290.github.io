@@ -1,0 +1,45 @@
+/* this is temporary for testing purposes */
+body{
+    color: black;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+
+.header {
+    /* background-color: green; */
+}
+.header a{
+    font-size: 30px;
+}
+
+#header-background {
+    background-image: url(Jade.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    text-align: center;
+}
+
+#header-background h1 {
+    padding-top: 141px;
+    padding-bottom: 141px;
+}
+.navcolor{
+    background-color: seagreen;
+    color: white;
+}
+.main-content {
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
